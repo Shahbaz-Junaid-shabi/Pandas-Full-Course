@@ -1,0 +1,57 @@
+1 - load or read the data from any source and also any types of files such as
+----> csv file (comma-separated value)
+----> json file (javascript object notation)
+----> Excel file (Excel Open XML Spreadsheet)
+----> sql file (structure query language)
+__________________________________________________________________________________________________________
+
+2- How to save the clean file or Data file into any type of file such as above the mention file 
+------> syntax : df_file_name.to_csv('file_name.csv', index = False)
+__________________________________________________________________________________________________________
+
+
+3- Understanding the data or data set 
+-----> identify the problems 
+--------------> missing data or null value or empty values 
+--------------> wrong datatype 
+--------------> plan next steps
+--------------> head() and tail() function 
+-----> must be used these two  to function in pandas, which helps you help more. understanding the data 
+--------------> info() and describe() function 
+--------------> df.shape and df.columns
+--------------> and last aslo df.dtype
+__________________________________________________________________________________________________________
+
+4. Four more thing remember about the data
+------------> Number of rows and columns ----> see the summerize information about data use ---> info() method 
+------------> 
+------------>
+__________________________________________________ ________________________________________________________
+5. Select the data or column and also filter the rows and columns
+-----> selecting specific column ---- use square bracket 
+-----> filter the row
+-----> combine the multiple condition
+_____________________________________________________________________________
+6. -----> square bracket for select the column
+--------> boolean condition 
+Selecting Columns 
+------- > a.series() one colum 
+------- > a.dataframe()   multiple column
+
+For Columns
+------- > col = df['Column_Name ']
+------- > col = df['Column_1','Column_2',Column_3,.........]
+
+------------------------------
+7. Condition 
+----> based on a single condition
+col_filter = df[df['Column_Name ']] > 50000
+col_filter
+-----> Multiple condition
+col_filter = df[(df['Column_Name '] > 50000 & ['Column_Name '] > 50000)]
+
+
+
+filter rows
+------------->
+
